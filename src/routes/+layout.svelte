@@ -4,6 +4,7 @@
 	import { invalidateAll } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { Toaster } from 'svelte-french-toast';
+	import { Navbar } from '$lib/components/';
 
 	onMount(() => {
 		const {
@@ -19,6 +20,7 @@
 </script>
 
 <Toaster />
+<Navbar />
 <div>
 	<slot />
 </div>
