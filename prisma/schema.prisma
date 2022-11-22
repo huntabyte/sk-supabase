@@ -32,4 +32,6 @@ model Item {
 
   user   Profile @relation(fields: [userId], references: [id])
   userId String
+
+  @@map("items")
 }
