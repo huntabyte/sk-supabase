@@ -29,8 +29,6 @@ export const actions: Actions = {
 			.upload(`${locals.session?.user.id}/items/${item.id}.png`, image);
 
 		if (data) {
-			console.log(data);
-
 			const updatedItem = await prisma.item.update({
 				where: {
 					id: item.id

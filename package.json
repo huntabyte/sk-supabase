@@ -28,6 +28,7 @@
     "eslint-plugin-svelte3": "^4.0.0",
     "flowbite": "^1.5.4",
     "flowbite-svelte": "^0.28.0",
+    "fluent-ffmpeg": "^2.1.2",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
     "prettier": "^2.6.2",
@@ -44,6 +45,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@supabase/supabase-js": "^2.1.0"
+    "@supabase/supabase-js": "^2.1.0",
+    "compressorjs": "^1.1.1"
   }
 }

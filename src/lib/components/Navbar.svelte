@@ -12,6 +12,10 @@
 			href: '/items'
 		},
 		{
+			title: 'My Items',
+			href: '/my/items'
+		},
+		{
 			title: 'Account',
 			href: '/account'
 		}

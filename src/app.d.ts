@@ -18,4 +18,5 @@ declare global {
 		// interface Error {}
 		// interface Platform {}
 	}
+	declare module 'fluent-ffmpeg';
 }
